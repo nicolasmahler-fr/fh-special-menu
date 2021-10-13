@@ -194,7 +194,7 @@ class Fh_Special_Menu
 		// Shortcode name must be the same as in shortcode_atts() third parameter.
 		$this->loader->add_shortcode($this->get_plugin_prefix() . 'shortcode', $plugin_public, 'fh_special_menu_shortcode_func');
 		// Actual shortcode : [fh_special_menu]
-		$this->loader->add_shortcode($this->get_plugin_prefix() . 'special_menu', $plugin_public, 'shortcode_Special_Menu');
+		$this->loader->add_shortcode($this->get_plugin_prefix() . 'special_menu', $plugin_public, 'shortcode_special_menu');
 	}
 
 	/**
